@@ -210,7 +210,7 @@ Execute this commands:
 curl -o docker-compose.yaml https://raw.githubusercontent.com/OpenBB-finance/OpenBBTerminal/main/build/docker/docker-compose.yaml
 
 xhost +local:
-docker compose run openbb
+docker-compose up
 ```
 
 Note: if you're using remote docker host, you can connect with `ssh -X <FQDN/IP>`.
