@@ -187,7 +187,7 @@ Execute this commands:
 curl -o docker-compose.yaml https://raw.githubusercontent.com/OpenBB-finance/OpenBBTerminal/main/build/docker/docker-compose.yaml
 
 xhost +$IP
-docker compose run -e DISPLAY=$IP:0 openbb
+docker-compose up -d
 ```
 
 This will download and run the file: `docker-compose.yaml`
